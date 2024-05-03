@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para las imágenes */
+.media {
+    display: flex;
+    flex-direction: column; /* Apilar las imágenes verticalmente */
+    justify-content: center; /* Centrar las imágenes verticalmente */
+    align-items: center; /* Centrar las imágenes horizontalmente */
+    margin-top: 20px; /* Espacio entre el encabezado y las imágenes */
+}
+
+.media img {
+    max-width: 100%; /* Ajustar el ancho de las imágenes al contenedor */
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para los botones */
+.botones button {
+    font-size: 24px; /* Tamaño de fuente para los botones */
+    padding: 10px 20px; /* Espacio interior de los botones */
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+
+/* Resetear estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffefe; /* Cambia el color de fondo según tus preferencias */
+}
+
+header {
+    background-image: linear-gradient(to right, hsl(286, 100%, 50%), hsl(0, 0%, 0%));
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: auto;
+    max-width: 100px;
+}
+
+nav {
+    margin-right: auto; /* Ajusta el margen derecho para mover la navegación hacia la izquierda */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; /* Espacio entre el encabezado y las imágenes */
+}
+
+.media img {
+    max-width: 1004px; /* Tamaño máximo de las imágenes */
+}
+
+.contacto {
+    background-color: #384455;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.contacto p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #ff0101;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center; /* Alinear el contenido al centro */
+}
+
+footer {
+    background-color: #384455;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center; /* Alinear el contenido al centro */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #384455;
+    color: #ffffff;
+    padding: 20px;
+    display: flex; /* Usar flexbox */
+    justify-content: space-between; /* Alinear los elementos al principio y al final del contenedor */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para los iconos de redes sociales */
+.redes-sociales {
+    display: flex; /* Usar flexbox */
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 10px; /* Espacio entre los iconos */
+}
